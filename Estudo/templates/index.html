@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto Flask</title>
+
+    <!-- Arquivo CSS externo -->
+    <!-- Em Flask, use url_for('static', filename='css/style.css') -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- Fonte Google (opcional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+        <nav class="container nav">
+            <h1 class="logo">MeuSite</h1>
+            <ul class="menu">
+                <li><a href="/">Início</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ========== HERO / BANNER ========== -->
+    <section class="hero">
+        <div class="container">
+            <h2>Bem-vindo ao Projeto Flask</h2>
+            <p>
+                Esta é uma página inicial organizada, pronta para conectar com o backend em Python.
+            </p>
+            <a class="btn" href="/login">Entrar</a>
+        </div>
+    </section>
+
+
+        <div>
+            <p>Teste de segunda rota</p>
+
+            <a href="/nova_rota">Voltar para a página inicial</a>
+        </div>
+
+    <!-- ========== CONTEÚDO PRINCIPAL ========== -->
+    <main class="container content">
+        <section>
+            <h3>Seção de Conteúdo</h3>
+            <p>
+                Aqui você pode adicionar conteúdo dinâmico usando Flask com render_template.
+                Exemplo de variável enviada pelo backend:
+            </p>
+
+            <!-- Exemplo de variável Flask -->
+            <p><strong>{{ mensagem }}</strong></p>
+        </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <p>&copy; {{ ano }} - Meu Projeto Flask. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
