@@ -1,0 +1,59 @@
+git init
+
+Inicializa um novo repositório Git em uma pasta local, criando o controle de versão do projeto.
+
+git clone
+
+Copia um repositório remoto (como do GitHub) para o computador local, trazendo arquivos e histórico de versões.
+
+git status
+
+Mostra o estado atual do repositório, indicando arquivos modificados, adicionados ou não rastreados.
+
+git add
+
+Adiciona arquivos à staging area, preparando-os para serem incluídos no próximo commit.
+
+git commit
+
+Registra as alterações adicionadas, criando uma nova versão do projeto com uma mensagem descritiva.
+
+git push
+
+Envia os commits do repositório local para o repositório remoto (GitHub, GitLab, etc.).
+
+git pull
+
+Atualiza o repositório local com as últimas alterações do repositório remoto (equivale a fetch + merge).
+
+git fetch
+
+Busca atualizações do repositório remoto sem aplicá-las automaticamente ao código local.
+
+git branch
+
+Lista, cria ou remove branches (ramificações do projeto).
+
+git merge
+
+Une uma branch a outra, normalmente usada para integrar funcionalidades ao branch principal.
+
+git log
+
+Exibe o histórico de commits do projeto, com autor, data e mensagem.
+
+git diff
+
+Mostra as diferenças entre arquivos modificados e a última versão salva.
+
+git reset
+
+Desfaz alterações ou commits, podendo manter ou descartar mudanças dependendo da opção usada.
+
+git rm
+
+Remove arquivos do projeto e do controle de versão do Git.
+
+git stash
+
+Guarda alterações temporariamente sem a necessidade de commit, permitindo trocar de branch sem perder o trabalho.
