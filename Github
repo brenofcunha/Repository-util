@@ -1,0 +1,13 @@
+Introdução ao Github 
+
+O GitHub é uma plataforma que utiliza o Git, um sistema de controle de versão, para gerenciar e armazenar projetos de software. Para trabalhar com um repositório, alguns comandos e conceitos são fundamentais: clone, checkout, add, commit e push. 
+
+Clone: É o processo de copiar um repositório que está no GitHub para o computador local. Ao clonar um repositório, o desenvolvedor passa a ter acesso a todos os arquivos e ao histórico de versões do projeto, podendo trabalhar nele localmente sem alterar o conteúdo original até decidir enviar as mudanças. 
+
+Checkout: É utilizado para mudar de versão, branch ou estado do projeto. Com ele, é possível alternar entre diferentes ramificações (branches) ou retornar a versões anteriores do código, facilitando testes e correções sem comprometer o desenvolvimento principal. 
+
+Add: Serve para preparar os arquivos que serão salvos em uma nova versão. Ele adiciona arquivos modificados ou criados à área de preparação (staging area), indicando ao Git quais mudanças devem fazer parte do próximo registro de versão. 
+
+Commit: É o momento em que as alterações são registradas oficialmente no repositório local. Cada commit funciona como um “ponto de salvamento”, contendo uma mensagem que descreve o que foi alterado. Isso permite acompanhar a evolução do projeto e recuperar versões anteriores, se necessário. 
+
+Push: É o comando responsável por enviar os commits do repositório local para o GitHub. Somente após o push as alterações ficam disponíveis para outros desenvolvedores, garantindo o compartilhamento e a colaboração no projeto. 
